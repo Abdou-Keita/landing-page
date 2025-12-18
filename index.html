@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Billetterie Officielle - Coupe du Monde 2026</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0a1cff;
+      --secondary: #ff2d2d;
+      --dark: #0b1020;
+      --light: #ffffff;
+      --gray: #f4f6fb;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: var(--gray);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(120deg, #0a1cff, #00b4ff);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+
+    .cta-btn {
+      background: var(--secondary);
+      color: white;
+      padding: 15px 35px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .cta-btn:hover {
+      background: #d80000;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .feature {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .feature h3 {
+      margin-bottom: 15px;
+      color: var(--primary);
+    }
+
+    .matches {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .match {
+      background: white;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.07);
+    }
+
+    .match h4 {
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--secondary);
+      margin: 15px 0;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      padding: 10px 25px;
+      background: var(--primary);
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .buy-btn:hover {
+      background: #060fbf;
+    }
+
+    .info {
+      background: linear-gradient(120deg, #111827, #1f2937);
+      color: white;
+      border-radius: 30px;
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    footer {
+      background: #0b1020;
+      color: #b5b8c5;
+      text-align: center;
+      padding: 30px 15px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Billetterie Officielle – Coupe du Monde 2026</h1>
+    <p>Vivez l'événement sportif le plus attendu au monde. Achetez vos billets officiels pour les matchs de la Coupe du Monde FIFA 2026 aux États-Unis, Canada et Mexique.</p>
+    <a href="#billets" class="cta-btn">Acheter mes billets</a>
+  </header>
+
+  <section>
+    <div class="features">
+      <div class="feature">
+        <h3>🎟️ Billets 100% Officiels</h3>
+        <p>Achat sécurisé directement depuis la plateforme officielle.</p>
+      </div>
+      <div class="feature">
+        <h3>🌍 Stades Internationaux</h3>
+        <p>Matchs dans les plus grands stades d'Amérique du Nord.</p>
+      </div>
+      <div class="feature">
+        <h3>⚽ 48 Équipes</h3>
+        <p>Une édition historique avec plus de matchs et de spectacles.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="billets">
+    <h2 style="text-align:center; margin-bottom:40px;">Matchs Disponibles</h2>
+    <div class="matches">
+      <div class="match">
+        <h4>Match d'Ouverture</h4>
+        <p>Los Angeles – 11 Juin 2026</p>
+        <div class="price">À partir de 120€</div>
+        <a href="#" class="buy-btn">Réserver</a>
+      </div>
+      <div class="match">
+        <h4>Phase de Groupes</h4>
+        <p>New York – Juin 2026</p>
+        <div class="price">À partir de 90€</div>
+        <a href="#" class="buy-btn">Réserver</a>
+      </div>
+      <div class="match">
+        <h4>Finale</h4>
+        <p>Dallas – 19 Juillet 2026</p>
+        <div class="price">À partir de 350€</div>
+        <a href="#" class="buy-btn">Réserver</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="info">
+      <h2>Pourquoi acheter maintenant ?</h2>
+      <p>Les places sont limitées et la demande mondiale est énorme. Réservez dès aujourd'hui pour garantir votre accès aux matchs les plus spectaculaires de la Coupe du Monde 2026.</p>
+      <br />
+      <a href="#" class="cta-btn">Accéder à la billetterie</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 – Plateforme de billetterie officielle Coupe du Monde FIFA | Ceci est une maquette UI</p>
+  </footer>
+
+</body>
+</html>
